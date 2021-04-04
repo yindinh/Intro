@@ -1,0 +1,6 @@
+Introduction: 
+The problem I am addressing is if a family is looking to move to the city of San Jose and was looking for a neighborhood to move into, which ones should they choose if they have young children. It is important to be near schools and playgrounds for the kids to play. This would be a great selling point for the city if they want to attract a new set of people to move into the neighborhood.
+
+Data:
+
+In this project, I used the the Foursquare location data to find the schools and playgrounds within a given radius of the city, San Jose. I then used k-means clustering to get clusters of the centers of the schools and playgrounds. I used a GET request URL and a function to search using category id in the  Foursquare API. I visualized the resulting centers using folium to render center points on the map. 
